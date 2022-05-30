@@ -26,6 +26,8 @@ clone한 경로에서 .git 폴더를 삭제해준다.
 sh mongobuild.sh
 # mysql build
 sh mysqlbuild.sh
+# nest build
+sh nestbuild.sh
 ```
 
 원하는 데이터베이스에 따라 명령어를 선택해 실행해 준다.
@@ -61,3 +63,7 @@ sh mysqlbuild.sh
 ```
 
 폴더 구조는 다음과 같다.
+
+### nest build
+
+back은 nest 프레임워크로 구성된다. 기본 패키지 관리자는 yarn이다
