@@ -66,4 +66,23 @@ sh nestbuild.sh
 
 ### nest build
 
+```shell
+.
+├── nest-cli.json
+├── package.json
+├── src
+│   ├── app.controller.spec.ts
+│   ├── app.controller.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   └── main.ts
+├── test
+│   ├── app.e2e-spec.ts
+│   └── jest-e2e.json
+├── tsconfig.build.json
+├── tsconfig.json
+└── yarn.lock
+```
+
 back은 nest 프레임워크로 구성된다. 기본 패키지 관리자는 yarn이다
+실제 프로젝트에서는 src아래 각 module별 폴더가 생성된다
